@@ -432,7 +432,7 @@ async function sendMsg() {
   try {
     const res = await fetch(`${apiHost}/api/v1/prediction/${chatflowId}`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true' },
       body: JSON.stringify({ question: text + contextNote })
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
