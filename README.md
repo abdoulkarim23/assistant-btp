@@ -87,3 +87,9 @@ Flowise API
 Gemini AI Workflow
 ↓
 AI Response
+```
+
+
+---
+
+© 2026 Conjectura. Tous droits réservés.
